@@ -36,7 +36,8 @@ def fetch_story_details(methods=['GET']):
 		SELECT 
 			A.id, 
 			A.by, 
-			A.score
+			A.score, 
+			A.title
 		FROM 
 			`dev-mantarays.HACKERNEWS.stories` as A
 		WHERE 
